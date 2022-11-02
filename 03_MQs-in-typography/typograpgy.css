@@ -1,0 +1,252 @@
+html 
+{
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after 
+{
+    box-sizing: inherit;
+}
+
+.page .header 
+{
+    display: inline-block;
+    border-bottom: 1px solid black;
+    width: 90%;
+}
+
+
+.page .header .link-item-site-title 
+{
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.page .header .link-item-site-title 
+{
+    font-size: 24px;
+    margin-right: 805px;
+    padding-right: 90px;
+    color:black;
+    text-decoration: none;
+}
+
+
+body 
+{
+    margin: 0px;
+    padding-left: 40px;
+    background-color: rgb(238, 238, 238);
+}
+.img-two 
+{
+    float : left;
+    margin-right : 19px;
+    border: 5px solid;
+    border-color: rgb(255, 255, 255);
+
+}
+.first-article { 
+    padding-top: 250px;
+}
+
+.paragraphOne a
+{
+    float : right;  
+}
+
+.paragraphTwo a 
+{
+    float : right;
+}
+
+.img-one 
+{
+    float : right;
+    margin-left : 19px;
+    border: 5px solid; 
+    border-color: rgb(255, 255, 255);
+}
+
+.header .nav .elements 
+{
+    float: right;
+    padding-right : 10px;
+}
+
+.main-content 
+{
+    width : 95%;
+}
+
+.main-content article
+{
+    width : 95%;
+}
+.main-content .heading-level {
+    font-family : Georgia, serif;
+    size: 1em/1.2;
+}
+
+.page .main-content aside .paragraph-one
+{
+    width : 50%;
+    float:left;
+        
+}
+.page .main-content aside blockquote {
+    font-family : Georgia, serif; 
+    width: 40%;
+    float: right;
+    border-left: 1px solid  grey;
+}
+
+.main-content aside .paragraph-two-author
+{
+float: right;
+font-family : Georgia, serif;
+}
+
+.page aside .paragraph-two
+{
+font-family : Georgia, serif;
+padding-left: 25px;
+margin-left: 25px;
+}
+
+.page { 
+    display: flex;
+    flex-wrap: wrap;
+}
+.page .main-content article { 
+    top: 250px;
+}
+
+@media (max-width: 500px) {
+     body { 
+         display:grid;
+         grid-template-areas: 
+         "header header header header header header"
+         "main main main main mian main aside"
+         "aside aside aside aside aside";
+     }
+
+     .page .link-item-site-title {
+         display: block;
+         margin-bottom:5px;
+         font-size: 12px;
+     }
+     .page .main-content { 
+         font-size: 12px;
+     }
+     .page .main-content aside { 
+        font-size: 12px;
+    }
+}
+@media (min-width: 500px) {
+    body { 
+        display:grid;
+        grid-template-areas: 
+        "header header"
+        "main aside"
+        "main main";
+    }
+
+    .page .link-item-site-title {
+        display: block;
+        margin-bottom:5px;
+        font-size: 12px;
+    }
+    .page .main-content { 
+        font-size: 14px;
+    }
+    .page .main-content aside { 
+        font-size: 14px;
+    }
+}
+@media (min-width: 600px) {
+    body { 
+        display:grid;
+        grid-template-areas: 
+        "header header"
+        "main aside"
+        "main main";
+    }
+
+    .page .link-item-site-title {
+        display: block;
+        margin-bottom:5px;
+        font-size: 12px;
+    }
+    .page .main-content { 
+        font-size: 16px;
+    }
+    .page .main-content aside { 
+        font-size: 16px;
+    }
+}
+@media (min-width: 800px) {
+    body { 
+        display:grid;
+        grid-template-areas: 
+        "header header"
+        "main aside"
+        "main main";
+    }
+
+    .page .link-item-site-title {
+        display: block;
+        margin-bottom:5px;
+        font-size: 12px;
+    }
+    .page .main-content { 
+        font-size: 18px;
+    }
+    .page .main-content aside { 
+        font-size: 18px;
+    }
+}
+@media (min-width: 1300px) {
+    body { 
+        display:grid;
+        grid-template-areas: 
+        "header header"
+        "main aside"
+        "main main";
+    }
+
+    .page .link-item-site-title {
+        display: block;
+        margin-bottom:5px;
+        font-size: 12px;
+    }
+    .page .main-content { 
+        font-size: 21px;
+    }
+    .page .main-content aside { 
+        font-size: 21px;
+    }
+}
+@media (min-width: 1800px) {
+    body { 
+        display:grid;
+        grid-template-areas: 
+        "header header"
+        "main aside"
+        "main main";
+    }
+
+    .page .link-item-site-title {
+        display: block;
+        margin-bottom:5px;
+        font-size: 12px;
+    }
+    .page .main-content { 
+        font-size: 23px;
+    }
+    .page .main-content aside { 
+        font-size: 23px;
+    }
+}

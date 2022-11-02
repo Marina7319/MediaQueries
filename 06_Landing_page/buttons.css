@@ -1,0 +1,205 @@
+@import 'https://use.fontawesome.com/releases/v5.6.3/css/all.css';
+@import 'https://use.fontawesome.com/releases/v5.10.2/css/all.css';
+
+
+body {
+    background: rgb(211, 211, 211);
+    cursor: pointer;
+    flex-direction: row;
+}
+
+.button,
+.button-fill,
+.button-fill-hover {
+    border-radius: 20px;
+    background: 5px 8px;
+    outline: none;
+    width: 25%;
+    text-align: center;
+    display: inline-block;
+    list-style: none;
+
+}
+
+.team {
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: row;
+    text-decoration: none;
+    align-items: center;
+
+}
+
+.page .team .our-team {
+    font-size: 40px;
+    text-align: center;  
+    border-bottom: 2px solid black;
+    width: 15%;
+    margin: 0 auto;
+}
+
+  
+
+.normal-buttons-ctr .button,
+.normal-buttons-ctr .button-fill,
+.normal-buttons-ctr .button-fill-hover {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    flex-direction: row;
+    margin: 4%;
+}
+
+.page .testimonials {
+    width: 15%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 2px solid black;
+    
+}
+
+.page .team .normal-buttons-ctr .picture,
+.page .team .normal-buttons-ctr .picture,
+.page .team .normal-buttons-ctr .picture {
+    border-radius: 50%;
+    width: 165px;
+    margin-left: 65px;
+
+}
+
+.icon-buttons-ctr .button-fill-hover:hover,
+.normal-buttons-ctr .button-fill-hover:hover,
+.filled-buttons-ctr .button-fill-hover:hover {
+    border: 1px solid rgb(0, 102, 0);
+    color: rgb(0, 102, 0);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.filled-buttons-ctr .button,
+.icon-buttons-ctr .button,
+.filled-buttons-ctr .button-fill,
+.icon-buttons-ctr .button-fill,
+.filled-buttons-ctr .button-fill-hover,
+.icon-buttons-ctr .button-fill-hover {
+    font-weight: 600;
+    margin: 4%;
+}
+
+.filled-buttons-ctr .picture,
+.icon-buttons-ctr .picture,
+.filled-buttons-ctr .picture,
+.icon-buttons-ctr .picture,
+.filled-buttons-ctr .picture,
+.icon-buttons-ctr .picture {
+    border-radius: 50%;
+    margin-left: 0px;
+    width: 165px;
+}
+@media (max-width: 500px) {
+    body {
+        margin: 0px;
+        padding-left: 0px;
+        background-color: white;
+        width: 100%;
+    }
+    .filled-buttons-ctr .picture,
+.icon-buttons-ctr .picture,
+.filled-buttons-ctr .picture,
+.icon-buttons-ctr .picture,
+.filled-buttons-ctr .picture,
+.icon-buttons-ctr .picture {
+    border-radius: 50%;
+    margin-left: 0px;
+    width: 165px;
+}
+.filled-buttons-ctr .button,
+.icon-buttons-ctr .button,
+.filled-buttons-ctr .button-fill,
+.icon-buttons-ctr .button-fill,
+.filled-buttons-ctr .button-fill-hover,
+.icon-buttons-ctr .button-fill-hover {
+    font-weight: 600;
+    margin: 10%;
+    margin-left: 0px;
+}
+.normal-buttons-ctr .button,
+.normal-buttons-ctr .button-fill,
+.normal-buttons-ctr .button-fill-hover {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    flex-direction: row;
+    margin: 10%;
+    margin-left:0px;
+}
+ .normal-buttons-ctr .picture,
+.normal-buttons-ctr .picture,
+ .normal-buttons-ctr .picture {
+    border-radius: 50%;
+    width:165px;
+    margin-left: 0px;
+    padding-left:0px;
+
+}
+
+
+
+}
+
+.page .sign-up-container {
+    width: 100%;
+    background-color: blueviolet;
+    height: 150px;
+}
+
+.page .sign-up-container .sign-up {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin-top: 25px;
+    border-bottom: 2px solid black;
+    
+}
+
+.page .sign-up-container .add {
+    width: 190px;
+    height: 30px;
+    margin-left: 450px;
+    margin-top: 25px;
+
+}
+
+.page .sign-up-container .add-me {
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    padding: 5px;
+    margin: 8px;
+    font-size: 11px;
+    margin-top: 25px;
+    background-color:#fff;
+
+}
+
+
+
+i {
+    margin-right: 3px;
+}
+
+.icon-buttons-ctr .button::before {
+    font-family: "Font Awesome 6 Free";
+    content: "\f309";
+}
+
+.icon-buttons-ctr .button-fill::before {
+    font-family: "Font Awesome 6 Free";
+    content: "\f309";
+}
+
+.icon-buttons-ctr .button-fill-hover::before {
+    font-family: "Font Awesome 6 Free";
+    content: "\f309";
+}
